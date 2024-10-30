@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".OrderFragment">
+
+<!--    <TextView-->
+<!--        android:id="@+id/txt_product_name"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginBottom="8dp"-->
+<!--        android:textSize="16sp"-->
+<!--        tools:text="Nama Produk" />-->
+<!--    <EditText-->
+<!--        android:id="@+id/edt_address"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginBottom="8dp"-->
+<!--        android:hint="Alamat"-->
+<!--        android:inputType="textPostalAddress"-->
+<!--        android:clickable="false" android:focusable="false"-->
+<!--        android:longClickable="false"-->
+<!--        android:textIsSelectable="false" />-->
+<!--    <Button-->
+<!--        android:id="@+id/btn_done"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Selesai" />-->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:text="Order Ticket"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        />
+
+    <EditText
+        android:id="@+id/et_tiket"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="32dp"
+        android:layout_marginTop="32dp"
+        android:text="Jenis Tiket"
+        android:textColor="@color/dark_gray"
+        android:paddingHorizontal="16dp"
+        android:background="@drawable/bg_jenis_tiket"
+        android:clickable="false"
+        android:focusable="false"
+        android:longClickable="false"
+        android:textIsSelectable="false"
+        />
+
+    <Button
+        android:id="@+id/btn_buy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Buy Ticket"
+        android:layout_marginTop="32dp"
+        android:paddingHorizontal="62dp"
+        android:backgroundTint="@color/blue"
+        />
+</LinearLayout>
